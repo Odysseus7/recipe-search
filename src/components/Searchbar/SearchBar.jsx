@@ -10,14 +10,14 @@ class SearchBar extends React.Component {
         }
     }
 
-    handleSearchSubmit = (event) => {
+    handleFormSubmit = (event) => {
         event.preventDefault();
-        console.log(this.state.keyword);
+        this.props.onSubmit(this.state.keyword); // lift state up to App component
     }
 
     render() {
         return (
-            <form className="searchbar" onSubmit={this.handleSearchSubmit}>
+            <form className="searchbar" onSubmit={this.handleFormSubmit}>
                 <input type="text" placeholder="Recipe search" value={this.state.keyword} onChange={(event) => this.setState({keyword: event.target.value})}/>
             </form>
         )
