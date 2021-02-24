@@ -1,5 +1,6 @@
 import React from 'react'
 import RecipeCard from './RecipeCard';
+import './RecipeList.scss';
 
 const RecipeList = ({recipesArray}) => {
     const recipes = recipesArray.map(recipe => {
