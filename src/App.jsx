@@ -1,10 +1,10 @@
 import React from 'react';
-import SearchBar from './components/SearchBar';
+import SearchBar from './components/Searchbar/SearchBar';
 import './App.scss';
 
 const App = () => {
     return (
-        <div>
+        <div className="container">
             <SearchBar />
         </div>
     )

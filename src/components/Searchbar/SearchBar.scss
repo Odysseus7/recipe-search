@@ -1,0 +1,19 @@
+.searchbar {
+  margin-top: 2rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 60%;
+    background-color: #242526;
+    color: #e4e6eb;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 5px;
+
+    &::placeholder {
+      color: #b0b3b8;
+    }
+  }
+}
