@@ -1,0 +1,22 @@
+.searchqueries {
+  margin-top: 2rem;
+
+  p {
+    font-weight: 300;
+    word-spacing: 7px;
+    letter-spacing: 0.5px;
+  }
+
+  a {
+    font-weight: 700;
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 1s;
+
+    &:hover {
+      color: #93969b;
+      transform: translateY(-2px);
+    }
+  }
+}
