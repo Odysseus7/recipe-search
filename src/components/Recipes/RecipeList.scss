@@ -8,8 +8,20 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 550px) {
+  .recipelist {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .recipelist {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .recipelist {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
