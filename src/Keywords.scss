@@ -1,5 +1,5 @@
 .searchqueries {
-  margin-top: 2rem;
+  margin-top: 4rem;
 
   p {
     font-weight: 300;
@@ -18,5 +18,12 @@
       color: #93969b;
       transform: translateY(-2px);
     }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  p {
+    text-align: center;
+    padding: 0 1rem;
   }
 }
