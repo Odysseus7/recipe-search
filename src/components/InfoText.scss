@@ -1,4 +1,4 @@
-.searchqueries {
+.infotext {
   margin-top: 4rem;
 
   p {
@@ -18,6 +18,10 @@
       color: #93969b;
       transform: translateY(-2px);
     }
+  }
+
+  .ui.red.message {
+    background-color: transparent;
   }
 }
 
