@@ -1,6 +1,6 @@
 # Recipe search 🌮🍟🥞
 
-Fun recipe search tool, using the Forkify (https://forkify-api.herokuapp.com/) API. Implementation of the concepts learned during the Modern React with Redux course (https://www.udemy.com/course/react-redux/). Check it out: https://recipe-search-f2768.web.app/
+Fun recipe search tool using the Forkify (https://forkify-api.herokuapp.com/) API. Implementation of the concepts learned during the Modern React with Redux course (https://www.udemy.com/course/react-redux/). Check it out: https://recipe-search-f2768.web.app/
 
 ## Why?
 
