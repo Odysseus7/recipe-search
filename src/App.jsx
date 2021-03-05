@@ -26,7 +26,7 @@ class App extends React.Component {
             this.setState({recipes: recipes.data.recipes})
             this.setState({loading: false})
         } catch (err) {
-            this.setState({recipes: null}); // else the old recipes will be showed
+            this.setState({recipes: null}); // else the old recipes will be showed when a new search happens
             this.setState({error: "An error has occured"});
             
             this.setState({loading: false})
